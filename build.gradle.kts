@@ -22,7 +22,12 @@ kotlin {
     }
 
     sourceSets {
-        commonMain {}
+        commonMain {
+            dependencies {
+                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core-js:1.10.1")
+                implementation("io.ktor:ktor-client-core:3.1.2")
+            }
+        }
     }
 }
 
