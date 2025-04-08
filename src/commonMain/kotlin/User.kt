@@ -1,4 +1,4 @@
-package top.moles.proto
+package model
 
 typealias UserId = Int
 
